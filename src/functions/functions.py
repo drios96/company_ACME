@@ -10,6 +10,7 @@ def read_file(file):
             employeeList.append(line)
     if (len(employeeList) == 0):
         print("File is empty")
+        return []
     else :
         return employeeList
         
