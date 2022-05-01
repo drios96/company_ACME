@@ -61,9 +61,9 @@ How does it work?
         3) If the file only has more than one employee, you will receive a message with the possible matches.
         4) If the file does not exist or you entered the path wrong, you will receive a message that the file does not exist.
 
-Testing
-    I did 7 unit tests for the functions.py file.
-    Each test had the objective of validating if the information received by each function allowed to obtain data.
-    Tests were carried out to verify that when sending an empty list, one would also be obtained based on the aforementioned considerations.
-    Tests were carried out to verify if the information could be read from a file and returned in a list.
-    Tests were performed to verify if the data processing functions could return empty and non-empty lists.
+    Testing
+        I did 7 unit tests for the functions.py file.
+        Each test had the objective of validating if the information received by each function allowed to obtain data.
+        Tests were carried out to verify that when sending an empty list, one would also be obtained based on the aforementioned considerations.
+        Tests were carried out to verify if the information could be read from a file and returned in a list.
+        Tests were performed to verify if the data processing functions could return empty and non-empty lists.
