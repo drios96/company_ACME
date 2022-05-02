@@ -29,6 +29,7 @@ ACME COMPANY
 
     How does it work?
         To have the list of matches you need to enter the file name in the console when the project ask for it.
+        If you choose an option other than the one presented, the program will continue to request an option.
         In the project directory you will find a folder (data) with test files that you can use.
         The system can read a file in "txt" or "csv" format. 
         Please note that the format of the information in the files should be as follows
