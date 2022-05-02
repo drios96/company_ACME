@@ -16,6 +16,7 @@ ACME COMPANY
 
     Libraries
         I used the pytest-7.1.2 library for the unit test
+        "pip install -U pytest"
 
     Version language
         Python 3.10.4
