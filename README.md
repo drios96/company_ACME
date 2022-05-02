@@ -27,7 +27,14 @@ ACME COMPANY
             python main.py
         *) If you need execute tests, insert this command in console
             pytest -v or pytest
-
+            
+    Metodology
+        As part of the methodology, I considered that the file information could be stored in a dictionary as an object (javascript) to easily access its properties.
+        The dictionary would have two keys "Employee" and "Schedule".
+        each would have as value the name of the employee and the list of working hours respectively.
+        The objective was simple, get the first employee and the next to compare the schedules, if there is any coincidence, it increases the value of a counter until         the comparison with all the schedules is finished. This counter is saved in a list with the names of the compared employees. Once this comparison is finished,         the first employee is evaluated with the employee that follows the last compared until all the employees that exist after the first are compared.
+        At the end of this process, a list is obtained with all possible matches (if any exist).
+        
     How does it work?
         To have the list of matches you need to enter the file name in the console when the project ask for it.
         If you choose an option other than the one presented, the program will continue to request an option.
@@ -50,7 +57,7 @@ ACME COMPANY
                         If the file is empty, return an empty list,
                         If the file does not exist, it returns an empty list with a message indicating the non-existence of the file
             2) generate_list()
-                This function converts the list of data obtained from the file into a new list with a different structure, each employee is assigned a dictionary along with their work schedules.
+                This function converts the list of data obtained from the file into a new list with a different structure, each employee is assigned a dictionary along                 with their work schedules.
                     Considerations
                         If the received list is empty, it returns an empty list.
             3) validate_coincidence()
