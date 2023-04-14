@@ -1,0 +1,6 @@
+Feature: Como dueño del producto, quiero que exista un servicio que guarde la información de compra en AWS
+  Scenario: Guardar compra en base
+    Given un servicio de compra
+    When se selecciona el producto y el medio de pago
+    Then envia los datos a la base en AWS
+    And registra la información en Dynamo DB
