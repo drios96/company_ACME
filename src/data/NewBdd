@@ -1,0 +1,6 @@
+Feature: Almacenamiento de datos de compra en AWS
+  Scenario: Almacenar la compra
+    Given Una pantalla de compra en la aplicacion de ONBVSA
+    When El usuario seleccione el producto a comprar
+    Then Debe dar click en comprar
+    And Se guarda la información en la base de dynamo db
